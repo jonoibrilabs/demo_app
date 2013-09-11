@@ -22,6 +22,10 @@ end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+gem 'turbolinks'
+
+gem 'therubyracer'
+
 group :production do
   gem 'pg', '0.12.2'
 end
